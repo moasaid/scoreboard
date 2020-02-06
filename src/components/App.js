@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Header from './Header';
 import Player from './Player';
-import AddPlayerForm from './AddPlayerForm'
+import AddPlayerForm from './AddPlayerForm';
+import TestState from './TestState';
 
 class App extends Component {
   state = {
@@ -96,6 +97,7 @@ class App extends Component {
         )}
 
         <AddPlayerForm addPlayer={this.handleAddPlayer}/>
+        <TestState />
       </div>
     );
   }
