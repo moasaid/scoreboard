@@ -65,7 +65,7 @@ class App extends Component {
         ]
       }
     });
-  }
+  } 
 
   handleRemovePlayer = (id) => {
     this.setState( prevState => {
